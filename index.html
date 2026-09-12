@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Дом в Терсколе | Посуточная аренда в Приэльбрусье</title>
+  <meta name="description" content="Уютный дом в сосновом лесу в Терсколе, Приэльбрусье. Полностью оборудован для комфортного отдыха. Парковка, мангал, беседка. Бронь по предоплате.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-icon">🏔</span>
+        <span class="logo-text">Дом в Терсколе</span>
+      </a>
+      <nav class="nav-desktop">
+        <a href="#gallery">Фотогалерея</a>
+        <a href="#prices">Стоимость</a>
+        <a href="#rules">Правила</a>
+        <a href="#about">О доме</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#requisites">Реквизиты</a>
+      </nav>
+      <button class="burger" id="burger" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="mobile-menu-content">
+      <button class="close-menu" id="closeMenu" aria-label="Закрыть">×</button>
+      <a href="#gallery" class="mobile-link">Фотогалерея</a>
+      <a href="#prices" class="mobile-link">Стоимость проживания</a>
+      <a href="#rules" class="mobile-link">Правила проживания</a>
+      <a href="#about" class="mobile-link">О доме</a>
+      <a href="#contacts" class="mobile-link">Контакты</a>
+      <a href="#requisites" class="mobile-link">Реквизиты</a>
+    </div>
+  </div>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/exterior-night.jpg" alt="Дом в Терсколе ночью">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Уютный дом в сосновом лесу<br>у подножия Эльбруса</h1>
+      <p class="hero-sub">Терскол, Приэльбрусье • Полностью оборудован • Парковка и мангал</p>
+      <div class="hero-buttons">
+        <a href="#prices" class="btn btn-primary">Смотреть цены</a>
+        <a href="tel:+79287150041" class="btn btn-outline">Позвонить</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <h2>О доме</h2>
+        <p class="section-desc">Идеальное место для отдыха в окружении природы</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>Добро пожаловать! Наш дом расположен в живописном сосновом лесу с журчащим ручейком — в самом сердце Приэльбрусья, в посёлке Терскол.</p>
+          <p>Здесь вас ждут тишина, чистый горный воздух и комфорт современного жилья. В доме есть всё необходимое для приятного и беззаботного отдыха: полноценная кухня, спальные места, бытовая техника и уютная атмосфера.</p>
+          <p>На территории — удобная парковка, мангальная зона с углями и шампурами, беседка и садовая мебель. Мы будем рады помочь вам с любыми вопросами и сделать ваш отдых незабываемым!</p>
+          <div class="about-features">
+            <div class="feature">
+              <span class="feature-icon">🌲</span>
+              <span>Сосновый лес и ручей</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">🚗</span>
+              <span>Собственная парковка</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">🔥</span>
+              <span>Мангал и беседка</span>
+            </div>
+            <div class="feature">
+              <span class="feature-icon">🏠</span>
+              <span>Всё для комфорта</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-image">
+          <img src="images/exterior-night.jpg" alt="Фасад дома">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Amenities -->
+  <section class="section amenities" id="amenities">
+    <div class="container">
+      <div class="section-header">
+        <h2>Что есть в доме</h2>
+        <p class="section-desc">Мы позаботились о каждой детали вашего комфорта</p>
+      </div>
+      <div class="amenities-grid">
+        <div class="amenity-card">
+          <div class="amenity-icon">🍳</div>
+          <h3>Кухня</h3>
+          <ul>
+            <li>Полноценная кухня со всей техникой</li>
+            <li>Чай, кофе, сахар</li>
+            <li>Вся необходимая посуда</li>
+          </ul>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">🧺</div>
+          <h3>Бытовая техника</h3>
+          <ul>
+            <li>Стиральная машина + средства</li>
+            <li>Пылесос</li>
+            <li>Фен, утюг, гладильная доска</li>
+            <li>Сушилка для белья</li>
+          </ul>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">🛏️</div>
+          <h3>Комфорт</h3>
+          <ul>
+            <li>Чистые постельное бельё и полотенца</li>
+            <li>Шампунь и мыло</li>
+            <li>Телевизоры в комнатах</li>
+            <li>Тёплый пол и отопление</li>
+          </ul>
+        </div>
+        <div class="amenity-card">
+          <div class="amenity-icon">🌳</div>
+          <h3>Двор</h3>
+          <ul>
+            <li>Парковка для автомобилей</li>
+            <li>Беседка и садовая мебель</li>
+            <li>Мангал, угли, шампуры</li>
+            <li>Уютная зона отдыха</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <h2>Фотогалерея</h2>
+        <p class="section-desc">Посмотрите, как выглядит наш дом</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <img src="images/exterior-night.jpg" alt="Дом ночью" loading="lazy">
+          <div class="gallery-caption">Фасад дома</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/bedroom-double.jpg" alt="Спальня" loading="lazy">
+          <div class="gallery-caption">Двуспальная кровать</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/beds3.jpg" alt="Три кровати" loading="lazy">
+          <div class="gallery-caption">Комната с тремя кроватями</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/bedroom2.jpg" alt="Спальня 2" loading="lazy">
+          <div class="gallery-caption">Уютная спальня</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/living-sofa.jpg" alt="Гостиная" loading="lazy">
+          <div class="gallery-caption">Гостиная с диваном</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/dining1.jpg" alt="Столовая" loading="lazy">
+          <div class="gallery-caption">Обеденная зона</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/dining2.jpg" alt="Столовая 2" loading="lazy">
+          <div class="gallery-caption">Столовая и гостиная</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/dining-stairs.jpg" alt="Лестница" loading="lazy">
+          <div class="gallery-caption">Первый этаж и лестница</div>
+        </div>
+        <div class="gallery-item">
+          <img src="images/bedroom-curtains.jpg" alt="Окно с видом" loading="lazy">
+          <div class="gallery-caption">Вид из окна</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prices -->
+  <section class="section prices" id="prices">
+    <div class="container">
+      <div class="section-header">
+        <h2>Стоимость проживания</h2>
+        <p class="section-desc">Цены на 2026–2027 год. Бронь строго по предоплате</p>
+      </div>
+      <div class="prices-grid">
+        <div class="price-card highlight">
+          <div class="price-badge">Новогодние праздники</div>
+          <div class="price-period">30 декабря 2026 — 8 января 2027</div>
+          <div class="price-value">35 000 ₽</div>
+          <div class="price-unit">в сутки</div>
+          <p class="price-note">Высокий сезон • Ограниченное количество дат</p>
+        </div>
+        <div class="price-card">
+          <div class="price-period">8 января 2027 — 30 декабря 2027</div>
+          <div class="price-value">15 000 ₽</div>
+          <div class="price-unit">в сутки</div>
+          <p class="price-note">Основной сезон • Гибкие даты</p>
+        </div>
+      </div>
+      <div class="price-info">
+        <p><strong>Важно:</strong> Бронирование дома осуществляется строго по предоплате. Для оплаты используйте QR-код или реквизиты ниже. Скидки при длительном проживании — обсуждаются индивидуально.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rules -->
+  <section class="section rules" id="rules">
+    <div class="container">
+      <div class="section-header">
+        <h2>Правила проживания</h2>
+        <p class="section-desc">Чтобы отдых был комфортным для всех</p>
+      </div>
+      <div class="rules-grid">
+        <div class="rule-item">
+          <span class="rule-num">01</span>
+          <h3>Предоплата</h3>
+          <p>Бронь подтверждается только после внесения предоплаты. Без предоплаты даты не резервируются.</p>
+        </div>
+        <div class="rule-item">
+          <span class="rule-num">02</span>
+          <h3>Заезд и выезд</h3>
+          <p>Заезд после 14:00, выезд до 12:00. Ранний заезд / поздний выезд — по договорённости.</p>
+        </div>
+        <div class="rule-item">
+          <span class="rule-num">03</span>
+          <h3>Количество гостей</h3>
+          <p>Количество проживающих должно соответствовать договорённости при бронировании.</p>
+        </div>
+        <div class="rule-item">
+          <span class="rule-num">04</span>
+          <h3>Порядок</h3>
+          <p>Просим относиться к имуществу бережно. Курение внутри дома запрещено. Домашние животные — по согласованию.</p>
+        </div>
+        <div class="rule-item">
+          <span class="rule-num">05</span>
+          <h3>Тишина</h3>
+          <p>С 23:00 до 8:00 — время тишины. Уважайте соседей и природу.</p>
+        </div>
+        <div class="rule-item">
+          <span class="rule-num">06</span>
+          <h3>Отмена</h3>
+          <p>Условия возврата предоплаты обсуждаются индивидуально в зависимости от срока до заезда.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacts -->
+  <section class="section contacts" id="contacts">
+    <div class="container">
+      <div class="section-header">
+        <h2>Контакты</h2>
+        <p class="section-desc">Свяжитесь с нами удобным способом</p>
+      </div>
+      <div class="contacts-grid">
+        <div class="contact-card">
+          <div class="contact-icon">📍</div>
+          <h3>Адрес</h3>
+          <p>Кабардино-Балкарская Республика,<br>
+          Эльбрусский район, с. Терскол,<br>
+          ул. имени К.Ш. Кулиева, 12</p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">📞</div>
+          <h3>Телефоны</h3>
+          <p>
+            <a href="tel:+79287150041">+7 (928) 715-00-41</a><br>
+            <a href="tel:+79289160041">+7 (928) 916-00-41</a>
+          </p>
+        </div>
+        <div class="contact-card">
+          <div class="contact-icon">💬</div>
+          <h3>Мессенджеры</h3>
+          <p>
+            <a href="https://wa.me/79287150041" target="_blank" rel="noopener">WhatsApp</a><br>
+            <a href="https://t.me/+79287150041" target="_blank" rel="noopener">Telegram</a><br>
+            <a href="https://max.ru" target="_blank" rel="noopener">Max</a>
+          </p>
+        </div>
+      </div>
+      <div class="map-note">
+        <p>Дом находится в сосновом лесу рядом с ручьём. Удобный подъезд. Парковка на территории.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Requisites -->
+  <section class="section requisites" id="requisites">
+    <div class="container">
+      <div class="section-header">
+        <h2>Реквизиты для оплаты</h2>
+        <p class="section-desc">Бронь строго по предоплате. Оплата по QR-коду или переводом</p>
+      </div>
+      <div class="requisites-grid">
+        <div class="qr-block">
+          <img src="images/qr.jpg" alt="QR-код для оплаты" class="qr-image">
+          <p>Отсканируйте QR-код для быстрой оплаты</p>
+        </div>
+        <div class="req-details">
+          <div class="req-row">
+            <span class="req-label">Получатель</span>
+            <span class="req-value">ИНДИВИДУАЛЬНЫЙ ПРЕДПРИНИМАТЕЛЬ СОКУРОВА АМИНАТ ШАХЫМОВНА</span>
+          </div>
+          <div class="req-row">
+            <span class="req-label">ИНН</span>
+            <span class="req-value">072195552785</span>
+          </div>
+          <div class="req-row">
+            <span class="req-label">ОГРНИП</span>
+            <span class="req-value">326070000003368</span>
+          </div>
+          <div class="req-row">
+            <span class="req-label">Расчётный счёт</span>
+            <span class="req-value">40802810060640002939</span>
+          </div>
+          <div class="req-row">
+            <span class="req-label">Банк</span>
+            <span class="req-value">СТАВРОПОЛЬСКОЕ ОТДЕЛЕНИЕ №5230 ПАО СБЕРБАНК</span>
+          </div>
+          <div class="req-row">
+            <span class="req-label">БИК</span>
+            <span class="req-value">040702615</span>
+          </div>
+          <div class="req-row">
+            <span class="req-label">Корсчёт</span>
+            <span class="req-value">30101810907020000615</span>
+          </div>
+          <div class="req-row">
+            <span class="req-label">ИНН банка</span>
+            <span class="req-value">7707083893</span>
+          </div>
+          <div class="req-row">
+            <span class="req-label">КПП банка</span>
+            <span class="req-value">072543001</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <span class="logo-icon">🏔</span>
+          <span>Дом в Терсколе</span>
+        </div>
+        <p class="footer-text">Посуточная аренда дома в Приэльбрусье • Терскол</p>
+        <div class="footer-phones">
+          <a href="tel:+79287150041">+7 (928) 715-00-41</a>
+          <a href="tel:+79289160041">+7 (928) 916-00-41</a>
+        </div>
+        <p class="footer-copy">© 2026 Дом в Терсколе. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Chat Button -->
+  <div class="chat-widget" id="chatWidget">
+    <div class="chat-options" id="chatOptions">
+      <a href="https://wa.me/79287150041" target="_blank" rel="noopener" class="chat-btn whatsapp" title="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      </a>
+      <a href="https://t.me/+79287150041" target="_blank" rel="noopener" class="chat-btn telegram" title="Telegram">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.788.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.624 4.476-1.635z"/></svg>
+      </a>
+      <a href="https://max.ru" target="_blank" rel="noopener" class="chat-btn max" title="Max">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h-2v-6h2v6zm0-8h-2V7h2v2zm6 8h-2v-2.5c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5V17h-2v-6h2v.5c.6-.9 1.6-1.5 2.8-1.5 1.9 0 3.2 1.4 3.2 3.5V17z"/></svg>
+        <span>Max</span>
+      </a>
+    </div>
+    <button class="chat-toggle" id="chatToggle" aria-label="Написать сообщение">
+      <svg class="icon-chat" viewBox="0 0 24 24" fill="currentColor"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H5.17L4 17.17V4h16v12z"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="currentColor"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+    </button>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">×</button>
+    <img src="" alt="" id="lightboxImg">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
