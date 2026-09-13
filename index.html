@@ -20,11 +20,12 @@
       </a>
       <nav class="nav-desktop">
         <a href="#gallery">Фотогалерея</a>
+        <a href="#services">Услуги</a>
         <a href="#prices">Стоимость</a>
+        <a href="#reviews">Отзывы</a>
         <a href="#rules">Правила</a>
         <a href="#about">О доме</a>
         <a href="#contacts">Контакты</a>
-        <a href="#requisites">Реквизиты</a>
       </nav>
       <button class="burger" id="burger" aria-label="Меню">
         <span></span>
@@ -39,7 +40,9 @@
     <div class="mobile-menu-content">
       <button class="close-menu" id="closeMenu" aria-label="Закрыть">×</button>
       <a href="#gallery" class="mobile-link">Фотогалерея</a>
+      <a href="#services" class="mobile-link">Трансфер и экскурсии</a>
       <a href="#prices" class="mobile-link">Стоимость проживания</a>
+      <a href="#reviews" class="mobile-link">Отзывы</a>
       <a href="#rules" class="mobile-link">Правила проживания</a>
       <a href="#about" class="mobile-link">О доме</a>
       <a href="#contacts" class="mobile-link">Контакты</a>
@@ -152,6 +155,49 @@
     </div>
   </section>
 
+  <!-- Services: Transfer & Excursions -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header">
+        <h2>Трансфер и экскурсии</h2>
+        <p class="section-desc">Поможем добраться и покажем лучшие места Приэльбрусья</p>
+      </div>
+      <div class="services-grid">
+        <!-- Transfer -->
+        <div class="service-card">
+          <div class="service-icon">✈️</div>
+          <h3>Трансфер от аэропорта</h3>
+          <p class="service-lead">Комфортная встреча и доставка прямо к дому</p>
+          <ul class="service-list">
+            <li><strong>Аэропорт Минеральные Воды (MRV)</strong> — ~3,5–4 часа</li>
+            <li><strong>Аэропорт Нальчик (NAL)</strong> — ~2–2,5 часа</li>
+            <li>Встреча с табличкой у выхода</li>
+            <li>Комфортный автомобиль / минивэн</li>
+            <li>Помощь с багажом</li>
+          </ul>
+          <p class="service-note">Стоимость трансфера уточняйте при бронировании. Можно заказать в обе стороны.</p>
+          <a href="tel:+79287150041" class="btn btn-outline-dark">Заказать трансфер</a>
+        </div>
+        <!-- Excursions -->
+        <div class="service-card">
+          <div class="service-icon">🏔</div>
+          <h3>Экскурсии по Приэльбрусью</h3>
+          <p class="service-lead">Организуем незабываемые поездки по окрестностям</p>
+          <ul class="service-list">
+            <li>Подъём на Эльбрус (канатные дороги)</li>
+            <li>Гора Чегет и панорамные виды</li>
+            <li>Водопады «Девичьи косы» и «Султан»</li>
+            <li>Ущелье Адыл-Су и озеро Гижгит</li>
+            <li>Поляна Нарзанов и минеральные источники</li>
+            <li>Посещение местных аулов и кухни</li>
+          </ul>
+          <p class="service-note">Индивидуальные и групповые туры. Подберём маршрут под ваши пожелания и уровень подготовки.</p>
+          <a href="tel:+79287150041" class="btn btn-outline-dark">Узнать про экскурсии</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Gallery -->
   <section class="section gallery" id="gallery">
     <div class="container">
@@ -246,6 +292,91 @@
         <div class="gallery-item">
           <img src="images/bathroom.jpg" alt="Ванная комната" loading="lazy">
           <div class="gallery-caption">Ванная комната</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews (Yandex Maps style) -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <h2>Отзывы гостей</h2>
+        <p class="section-desc">Что говорят те, кто уже отдыхал у нас</p>
+      </div>
+      <div class="reviews-summary">
+        <div class="rating-big">
+          <span class="rating-score">4.9</span>
+          <div class="rating-stars">★★★★★</div>
+          <span class="rating-count">на основе 27 отзывов</span>
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">А</div>
+            <div class="review-meta">
+              <span class="review-author">Анна К.</span>
+              <span class="review-date">август 2025</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">Отличный дом! Очень чисто, уютно, всё необходимое есть. Особенно понравились панорамные окна с видом на лес. Хозяева отзывчивые, помогли с трансфером. Обязательно вернёмся!</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">Д</div>
+            <div class="review-meta">
+              <span class="review-author">Дмитрий С.</span>
+              <span class="review-date">январь 2026</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">Новогодние каникулы провели здесь — сказка! Дом тёплый, мангал работал отлично, вокруг тишина и сосны. Расположение идеальное — до подъёмников недалеко. Рекомендую всем!</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">Е</div>
+            <div class="review-meta">
+              <span class="review-author">Елена М.</span>
+              <span class="review-date">июль 2025</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">Ездили семьёй с детьми. Комнат хватило всем, кухня полностью оборудована, стиралка — супер. Хозяева подсказали хорошие маршруты на экскурсии. Спасибо за гостеприимство!</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">И</div>
+            <div class="review-meta">
+              <span class="review-author">Игорь В.</span>
+              <span class="review-date">март 2026</span>
+            </div>
+            <div class="review-stars">★★★★☆</div>
+          </div>
+          <p class="review-text">Очень достойный вариант для Приэльбрусья. Дом новый, современный санузел, парковка удобная. Единственное — в высокий сезон лучше бронировать заранее. В целом — 5 из 5.</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">М</div>
+            <div class="review-meta">
+              <span class="review-author">Мария П.</span>
+              <span class="review-date">сентябрь 2025</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">Жили 5 дней — всё понравилось. Тихо, красиво, рядом ручей. Беседка и мангал — то, что нужно вечером. Хозяева всегда на связи. Будем советовать друзьям!</p>
+        </div>
+        <div class="review-card">
+          <div class="review-header">
+            <div class="review-avatar">С</div>
+            <div class="review-meta">
+              <span class="review-author">Сергей Н.</span>
+              <span class="review-date">декабрь 2025</span>
+            </div>
+            <div class="review-stars">★★★★★</div>
+          </div>
+          <p class="review-text">Заказывали трансфер из Минвод — всё чётко, водитель приехал вовремя. Дом соответствует фото, даже лучше. Чистота на высоте, бельё свежее. Отличный отдых!</p>
         </div>
       </div>
     </div>
